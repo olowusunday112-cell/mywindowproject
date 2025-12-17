@@ -11,3 +11,11 @@ C:\Users\HP\AppData\Local\Temporary Projects\simpleCal_W\bin\Debug\Guna.UI2.dll
 C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\obj\x86\Debug\simpleCal_W.exe
 C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\obj\x86\Debug\simpleCal_W.xml
 C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\obj\x86\Debug\simpleCal_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\bin\Debug\simpleCal_W.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\bin\Debug\simpleCal_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\bin\Debug\simpleCal_W.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\bin\Debug\Guna.UI2.dll
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\obj\x86\Debug\simpleCal_W.vbprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\obj\x86\Debug\simpleCal_W.Form1.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\obj\x86\Debug\simpleCal_W.Resources.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCal_W\simpleCal_W\obj\x86\Debug\simpleCal_W.vbproj.GenerateResource.Cache
