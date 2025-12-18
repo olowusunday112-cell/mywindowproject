@@ -37,7 +37,7 @@ Partial Class Form1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.Green
         Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(67, 12)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(209, 18)
@@ -48,7 +48,7 @@ Partial Class Form1
         '
         Me.PRODUCTCALBTN.CheckedState.Parent = Me.PRODUCTCALBTN
         Me.PRODUCTCALBTN.CustomImages.Parent = Me.PRODUCTCALBTN
-        Me.PRODUCTCALBTN.FillColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PRODUCTCALBTN.FillColor = System.Drawing.Color.Green
         Me.PRODUCTCALBTN.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.PRODUCTCALBTN.ForeColor = System.Drawing.Color.White
         Me.PRODUCTCALBTN.HoverState.Parent = Me.PRODUCTCALBTN
@@ -61,6 +61,7 @@ Partial Class Form1
         '
         'firstNumber_txt
         '
+        Me.firstNumber_txt.BackColor = System.Drawing.Color.Black
         Me.firstNumber_txt.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.firstNumber_txt.DefaultText = ""
         Me.firstNumber_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -71,6 +72,7 @@ Partial Class Form1
         Me.firstNumber_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.firstNumber_txt.FocusedState.Parent = Me.firstNumber_txt
         Me.firstNumber_txt.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstNumber_txt.ForeColor = System.Drawing.Color.Black
         Me.firstNumber_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.firstNumber_txt.HoverState.Parent = Me.firstNumber_txt
         Me.firstNumber_txt.Location = New System.Drawing.Point(74, 68)
@@ -105,6 +107,7 @@ Partial Class Form1
         '
         'secondNumber_txt
         '
+        Me.secondNumber_txt.BackColor = System.Drawing.Color.Black
         Me.secondNumber_txt.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.secondNumber_txt.DefaultText = ""
         Me.secondNumber_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -115,6 +118,7 @@ Partial Class Form1
         Me.secondNumber_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.secondNumber_txt.FocusedState.Parent = Me.secondNumber_txt
         Me.secondNumber_txt.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.secondNumber_txt.ForeColor = System.Drawing.Color.Black
         Me.secondNumber_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.secondNumber_txt.HoverState.Parent = Me.secondNumber_txt
         Me.secondNumber_txt.Location = New System.Drawing.Point(76, 141)
@@ -129,6 +133,7 @@ Partial Class Form1
         '
         'result_txt
         '
+        Me.result_txt.BackColor = System.Drawing.Color.Black
         Me.result_txt.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.result_txt.DefaultText = ""
         Me.result_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -139,6 +144,7 @@ Partial Class Form1
         Me.result_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.result_txt.FocusedState.Parent = Me.result_txt
         Me.result_txt.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.result_txt.ForeColor = System.Drawing.Color.Black
         Me.result_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.result_txt.HoverState.Parent = Me.result_txt
         Me.result_txt.Location = New System.Drawing.Point(76, 311)

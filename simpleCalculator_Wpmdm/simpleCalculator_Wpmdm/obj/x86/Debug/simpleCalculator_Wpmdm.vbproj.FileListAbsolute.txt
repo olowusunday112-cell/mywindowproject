@@ -1,0 +1,10 @@
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\bin\Debug\simpleCalculator_Wpmdm.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\bin\Debug\simpleCalculator_Wpmdm.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\bin\Debug\simpleCalculator_Wpmdm.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\bin\Debug\Guna.UI2.dll
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\obj\x86\Debug\simpleCalculator_Wpmdm.Form1.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\obj\x86\Debug\simpleCalculator_Wpmdm.Resources.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\obj\x86\Debug\simpleCalculator_Wpmdm.vbproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\obj\x86\Debug\simpleCalculator_Wpmdm.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\obj\x86\Debug\simpleCalculator_Wpmdm.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\simpleCalculator_Wpmdm\simpleCalculator_Wpmdm\obj\x86\Debug\simpleCalculator_Wpmdm.pdb
