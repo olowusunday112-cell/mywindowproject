@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ageCal_W", "ageCal_W\ageCal_W.vbproj", "{B9A301AA-01F2-487E-B574-80E81CA0EC8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A301AA-01F2-487E-B574-80E81CA0EC8E}.Debug|x86.ActiveCfg = Debug|x86
+		{B9A301AA-01F2-487E-B574-80E81CA0EC8E}.Debug|x86.Build.0 = Debug|x86
+		{B9A301AA-01F2-487E-B574-80E81CA0EC8E}.Release|x86.ActiveCfg = Release|x86
+		{B9A301AA-01F2-487E-B574-80E81CA0EC8E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

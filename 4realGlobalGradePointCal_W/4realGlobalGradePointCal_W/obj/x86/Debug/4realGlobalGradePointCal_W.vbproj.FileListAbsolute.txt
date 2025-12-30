@@ -1,0 +1,21 @@
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\bin\Debug\4realGlobalGradePointCal_W.exe
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\bin\Debug\4realGlobalGradePointCal_W.pdb
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\bin\Debug\4realGlobalGradePointCal_W.xml
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\obj\x86\Debug\_4realGlobalGradePointCal_W.Resources.resources
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.vbproj.GenerateResource.Cache
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.exe
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.xml
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.pdb
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\bin\Debug\Guna.UI2.dll
+C:\Users\HP\AppData\Local\Temporary Projects\4realGlobalGradePointCal_W\obj\x86\Debug\_4realGlobalGradePointCal_W.form1.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\bin\Debug\4realGlobalGradePointCal_W.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\bin\Debug\4realGlobalGradePointCal_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\bin\Debug\4realGlobalGradePointCal_W.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\bin\Debug\Guna.UI2.dll
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\obj\x86\Debug\_4realGlobalGradePointCal_W.Form1.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\obj\x86\Debug\_4realGlobalGradePointCal_W.Resources.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\obj\x86\Debug\4realGlobalGradePointCal_W.vbproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\4realGlobalGradePointCal_W\4realGlobalGradePointCal_W\obj\x86\Debug\_4realGlobalGradePointCal_W.loginForm.resources

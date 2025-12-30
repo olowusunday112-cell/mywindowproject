@@ -262,7 +262,7 @@ Partial Class Form1
         Me.Guna2Panel1.Controls.Add(Me.multbtn)
         Me.Guna2Panel1.Controls.Add(Me.subbtn)
         Me.Guna2Panel1.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel1.Location = New System.Drawing.Point(328, 35)
+        Me.Guna2Panel1.Location = New System.Drawing.Point(263, 29)
         Me.Guna2Panel1.Name = "Guna2Panel1"
         Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
         Me.Guna2Panel1.Size = New System.Drawing.Size(233, 257)
@@ -287,7 +287,7 @@ Partial Class Form1
         Me.exitbtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.exitbtn.ForeColor = System.Drawing.Color.White
         Me.exitbtn.HoverState.Parent = Me.exitbtn
-        Me.exitbtn.Location = New System.Drawing.Point(477, 315)
+        Me.exitbtn.Location = New System.Drawing.Point(416, 312)
         Me.exitbtn.Name = "exitbtn"
         Me.exitbtn.ShadowDecoration.Parent = Me.exitbtn
         Me.exitbtn.Size = New System.Drawing.Size(80, 40)
@@ -303,7 +303,7 @@ Partial Class Form1
         Me.clearbtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.clearbtn.ForeColor = System.Drawing.Color.White
         Me.clearbtn.HoverState.Parent = Me.clearbtn
-        Me.clearbtn.Location = New System.Drawing.Point(328, 312)
+        Me.clearbtn.Location = New System.Drawing.Point(263, 313)
         Me.clearbtn.Name = "clearbtn"
         Me.clearbtn.ShadowDecoration.Parent = Me.clearbtn
         Me.clearbtn.Size = New System.Drawing.Size(80, 40)
@@ -315,7 +315,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(623, 361)
+        Me.ClientSize = New System.Drawing.Size(534, 361)
         Me.Controls.Add(Me.clearbtn)
         Me.Controls.Add(Me.exitbtn)
         Me.Controls.Add(Me.Guna2Panel1)

@@ -1,0 +1,10 @@
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\bin\Debug\loanApp_W.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\bin\Debug\loanApp_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\bin\Debug\loanApp_W.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\bin\Debug\Guna.UI2.dll
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\obj\x86\Debug\loanApp_W.Form1.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\obj\x86\Debug\loanApp_W.Resources.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\obj\x86\Debug\loanApp_W.vbproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\obj\x86\Debug\loanApp_W.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\obj\x86\Debug\loanApp_W.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\loanApp_W\loanApp_W\obj\x86\Debug\loanApp_W.pdb

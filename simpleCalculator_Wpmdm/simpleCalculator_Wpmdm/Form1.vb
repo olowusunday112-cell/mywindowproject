@@ -6,7 +6,7 @@
         activebtn_txt.Text = "+"
     End Sub
 
-    Dim selectedOp As String = "+"
+    Dim selectedOp As String
     Private Sub addbtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles addbtn.Click
         selectedOp = "+"
         activebtn_txt.Text = "+"
@@ -36,16 +36,17 @@
 
 
     Private Sub clearbtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles clearbtn.Click
-        firstNumber_txt.Clear()
-        secondNumber_txt.Clear()
-        result_txt.Clear()
-        activebtn_txt.Text = ""
+        myFunction.clearText()
         selectedOp = ""
-        firstNumber_txt.Focus()
+
     End Sub
 
    
     Private Sub calculatebtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles calculatebtn.Click
+        If selectedOp = "" Then
+            MessageBox.Show("Please select an operator(+, -, x, or /) before calculating!", "Operator Missing", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Exit Sub
+        End If
         Dim firstNumber As Double = Val(firstNumber_txt.Text)
         Dim secondNumber As Double = Val(secondNumber_txt.Text)
         Dim result As Double = 0
@@ -55,9 +56,7 @@
         End If
         If Not IsNumeric(firstNumber_txt.Text) Or Not IsNumeric(secondNumber_txt.Text) Then
             MessageBox.Show("Invalid input! Please enter numbers only, not letters.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            firstNumber_txt.Clear()
-            secondNumber_txt.Clear()
-            firstNumber_txt.Focus()
+            myFunction.clearText()
             Exit Sub
         End If
         Select Case selectedOp
@@ -65,10 +64,12 @@
             Case "-" : result = firstNumber - secondNumber
             Case "*" : result = firstNumber * secondNumber
             Case "/"
-                If secondNumber <> 0 Then
+                If (secondNumber <> 0) Then
                     result = firstNumber / secondNumber
                 Else
-                    MessageBox.Show("Cannot divide by zero!", "Math Error")
+                    MessageBox.Show("Error: You cannot divide a number by zero!", "Math Error", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+                    secondNumber_txt.Clear()
+                    secondNumber_txt.Focus()
                     Exit Sub
                 End If
         End Select
@@ -91,4 +92,15 @@
     End Sub
 
 
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Guna2Panel1_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles Guna2Panel1.Paint
+
+    End Sub
+
+    Private Sub result_txt_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles result_txt.TextChanged
+
+    End Sub
 End Class
