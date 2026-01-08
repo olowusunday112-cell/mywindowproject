@@ -1,0 +1,21 @@
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\bin\Debug\nationalDiplomaGradePointCal_W.exe
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\bin\Debug\nationalDiplomaGradePointCal_W.pdb
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\bin\Debug\nationalDiplomaGradePointCal_W.xml
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\bin\Debug\Guna.UI2.dll
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.Form1.resources
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.Resources.resources
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.vbproj.GenerateResource.Cache
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.exe
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.xml
+C:\Users\HP\AppData\Local\Temporary Projects\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\bin\Debug\nationalDiplomaGradePointCal_W.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\bin\Debug\nationalDiplomaGradePointCal_W.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\bin\Debug\nationalDiplomaGradePointCal_W.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\bin\Debug\Guna.UI2.dll
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.Form1.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.Resources.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.vbproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\nationalDiplomaGradePointCal_W\nationalDiplomaGradePointCal_W\obj\x86\Debug\nationalDiplomaGradePointCal_W.vbprojResolveAssemblyReference.cache

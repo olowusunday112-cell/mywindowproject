@@ -36,13 +36,13 @@ Partial Class Form1
         Me.totalInterest_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.totalRepay_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.monthlyGrid = New Guna.UI2.WinForms.Guna2DataGridView()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.exitbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.clearbtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.monthlyGrid, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -258,11 +258,11 @@ Partial Class Form1
         Me.monthlyGrid.DefaultCellStyle = DataGridViewCellStyle4
         Me.monthlyGrid.EnableHeadersVisualStyles = False
         Me.monthlyGrid.GridColor = System.Drawing.Color.Gray
-        Me.monthlyGrid.Location = New System.Drawing.Point(723, 228)
+        Me.monthlyGrid.Location = New System.Drawing.Point(719, 226)
         Me.monthlyGrid.Name = "monthlyGrid"
         Me.monthlyGrid.RowHeadersVisible = False
         Me.monthlyGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.monthlyGrid.Size = New System.Drawing.Size(240, 242)
+        Me.monthlyGrid.Size = New System.Drawing.Size(240, 213)
         Me.monthlyGrid.TabIndex = 11
         Me.monthlyGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.monthlyGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
@@ -286,6 +286,18 @@ Partial Class Form1
         Me.monthlyGrid.ThemeStyle.RowsStyle.Height = 22
         Me.monthlyGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.monthlyGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "MONTHLY "
+        Me.Column1.Name = "Column1"
+        '
+        'Column2
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Column2.HeaderText = "REPAYMENT"
+        Me.Column2.Name = "Column2"
         '
         'Guna2HtmlLabel5
         '
@@ -349,18 +361,6 @@ Partial Class Form1
         Me.clearbtn.Size = New System.Drawing.Size(101, 45)
         Me.clearbtn.TabIndex = 16
         Me.clearbtn.Text = "CLEAR"
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "MONTHLY "
-        Me.Column1.Name = "Column1"
-        '
-        'Column2
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column2.DefaultCellStyle = DataGridViewCellStyle3
-        Me.Column2.HeaderText = "REPAYMENT"
-        Me.Column2.Name = "Column2"
         '
         'Form1
         '

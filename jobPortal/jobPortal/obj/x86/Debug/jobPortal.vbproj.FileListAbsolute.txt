@@ -1,0 +1,22 @@
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\bin\Debug\jobPortal.exe
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\bin\Debug\jobPortal.pdb
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\bin\Debug\jobPortal.xml
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\obj\x86\Debug\jobPortal.Form1.resources
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\obj\x86\Debug\jobPortal.Resources.resources
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\obj\x86\Debug\jobPortal.vbproj.GenerateResource.Cache
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\obj\x86\Debug\jobPortal.exe
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\obj\x86\Debug\jobPortal.xml
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\obj\x86\Debug\jobPortal.pdb
+C:\Users\HP\AppData\Local\Temporary Projects\jobPortal\bin\Debug\Guna.UI2.dll
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\bin\Debug\jobPortal.exe
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\bin\Debug\jobPortal.pdb
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\bin\Debug\jobPortal.xml
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\bin\Debug\Guna.UI2.dll
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.vbprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.Form1.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.Resources.resources
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.vbproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Documents\Visual Studio 2010\Projects\mywindowproject\jobPortal\jobPortal\obj\x86\Debug\jobPortal.jobCard.resources
