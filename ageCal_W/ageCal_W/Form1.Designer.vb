@@ -46,7 +46,7 @@ Partial Class Form1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.YellowGreen
+        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(323, 35)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(163, 22)
@@ -97,9 +97,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel5.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(362, 315)
         Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(48, 18)
+        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(38, 18)
         Me.Guna2HtmlLabel5.TabIndex = 4
-        Me.Guna2HtmlLabel5.Text = "AGE: <font color= ""red"">*</font color>"
+        Me.Guna2HtmlLabel5.Text = "AGE: "
         Me.Guna2HtmlLabel5.TextAlignment = System.Drawing.ContentAlignment.TopCenter
         '
         'txtYear
@@ -109,9 +109,9 @@ Partial Class Form1
         Me.txtYear.ForeColor = System.Drawing.SystemColors.ControlText
         Me.txtYear.Location = New System.Drawing.Point(59, 358)
         Me.txtYear.Name = "txtYear"
-        Me.txtYear.Size = New System.Drawing.Size(68, 18)
+        Me.txtYear.Size = New System.Drawing.Size(58, 18)
         Me.txtYear.TabIndex = 5
-        Me.txtYear.Text = "YEARS: <font color= ""red"">*</font color>"
+        Me.txtYear.Text = "YEARS: "
         Me.txtYear.TextAlignment = System.Drawing.ContentAlignment.TopCenter
         '
         'txtMonth
@@ -121,9 +121,9 @@ Partial Class Form1
         Me.txtMonth.ForeColor = System.Drawing.SystemColors.ControlText
         Me.txtMonth.Location = New System.Drawing.Point(299, 358)
         Me.txtMonth.Name = "txtMonth"
-        Me.txtMonth.Size = New System.Drawing.Size(82, 18)
+        Me.txtMonth.Size = New System.Drawing.Size(72, 18)
         Me.txtMonth.TabIndex = 6
-        Me.txtMonth.Text = "MONTHS: <font color= ""red"">*</font color>"
+        Me.txtMonth.Text = "MONTHS: "
         Me.txtMonth.TextAlignment = System.Drawing.ContentAlignment.TopCenter
         '
         'txtDay
@@ -133,9 +133,9 @@ Partial Class Form1
         Me.txtDay.ForeColor = System.Drawing.SystemColors.ControlText
         Me.txtDay.Location = New System.Drawing.Point(557, 358)
         Me.txtDay.Name = "txtDay"
-        Me.txtDay.Size = New System.Drawing.Size(58, 18)
+        Me.txtDay.Size = New System.Drawing.Size(48, 18)
         Me.txtDay.TabIndex = 7
-        Me.txtDay.Text = "DAYS: <font color= ""red"">*</font color>"
+        Me.txtDay.Text = "DAYS: "
         Me.txtDay.TextAlignment = System.Drawing.ContentAlignment.TopCenter
         '
         'birthday_txt
@@ -363,7 +363,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Teal
+        Me.BackColor = System.Drawing.Color.Silver
         Me.ClientSize = New System.Drawing.Size(834, 511)
         Me.Controls.Add(Me.lblToday)
         Me.Controls.Add(Me.clearbtn)

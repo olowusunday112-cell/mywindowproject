@@ -1,68 +1,40 @@
 ﻿Public Class Form1
-
-    Private Sub calculatebtn_Click(ByVal sender As Object, ByVal e As EventArgs) Handles calculatebtn.Click
-
-        ' 1. Declare variables
-        Dim loanAmount As Double
-        Dim loanDuration As Integer   ' Duration in MONTHS
-        Dim fixedInterest As Double = 1.5
-
-        Dim monthlyRepayment As Double
-        Dim monthlyInterest As Double
-        Dim monthlyTotal As Double
-        Dim totalInterest As Double = 0
-        Dim totalRepayment As Double = 0
-        Dim balance As Double
-
-        ' 2. Validation
-        If Not IsNumeric(amount_txt.Text) Or Not IsNumeric(duration_txt.Text) Then
-            MessageBox.Show("Please enter valid numbers", "Input Error")
-            Exit Sub
-        End If
-
-        loanAmount = CDbl(amount_txt.Text)
-        loanDuration = CInt(duration_txt.Text)
-
-        If loanAmount <= 0 Then
-            MessageBox.Show("Loan amount must be greater than 0", "Input Error")
-            Exit Sub
-        End If
-
-        If loanDuration <= 0 Then
-            MessageBox.Show("Duration must be greater than 0", "Input Error")
-            Exit Sub
-        End If
-
-        ' 3. Setup
-        monthlyRepayment = loanAmount / loanDuration
-        balance = loanAmount
-        totalInterest = 0
-        totalRepayment = 0
-
-        ' Clear old data
+    Private Sub calculatebtn_Click(sender As Object, e As EventArgs) Handles calculatebtn.Click
+        ' 1. Clear the grid rows
         monthlyGrid.Rows.Clear()
 
-        ' 4. Reducing Balance Loop
-        For months As Integer = 1 To loanDuration
 
-            monthlyInterest = balance * (fixedInterest / 100)
-            monthlyTotal = monthlyRepayment + monthlyInterest
+        Dim loanAmount As Double = Val(amount_txt.Text)
+        Dim loanDuration As Integer = Val(duration_txt.Text)
+        Dim fixedInterest As Double = 1.5
 
-            totalInterest += monthlyInterest
-            totalRepayment += monthlyTotal
+        Dim monthlyPrincipal As Double = loanAmount / loanDuration
+        Dim balance As Double = loanAmount
+        Dim totalInterestCalc As Double = 0
+        Dim totalRepaymentCalc As Double = 0
 
-            ' Add to grid
-            monthlyGrid.Rows.Add(months, monthlyTotal.ToString("N2"))
+        ' 3. The Loop (Calculates all 4 values for the grid)
+        For i As Integer = 1 To loanDuration
+            Dim interestForThisMonth As Double = balance * (fixedInterest / 100)
+            Dim totalMonthlyPayment As Double = monthlyPrincipal + interestForThisMonth
 
-            ' Reduce balance
-            balance -= monthlyRepayment
+            totalInterestCalc += interestForThisMonth
+            totalRepaymentCalc += totalMonthlyPayment
 
+            ' 4. Add all 4 values to the grid to match the console
+            monthlyGrid.Rows.Add(i,
+                                monthlyPrincipal.ToString("N2"),
+                                interestForThisMonth.ToString("N2"),
+                                totalMonthlyPayment.ToString("N2"))
+
+            ' Reduce balance for the next month
+            balance -= monthlyPrincipal
         Next
 
-        ' 5. Display results
+        ' 5. Update your summary boxes
         totalLoan_txt.Text = loanAmount.ToString("N2")
-        totalInterest_txt.Text = totalInterest.ToString("N2")
-        totalRepay_txt.Text = totalRepayment.ToString("N2")
+        totalInterest_txt.Text = totalInterestCalc.ToString("N2")
+        totalRepay_txt.Text = totalRepaymentCalc.ToString("N2")
 
     End Sub
     Private Sub Guna2Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles clearbtn.Click

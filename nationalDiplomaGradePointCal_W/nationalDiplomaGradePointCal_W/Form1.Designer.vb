@@ -78,6 +78,27 @@ Partial Class Form1
         Me.btnBackToSemester = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button20 = New Guna.UI2.WinForms.Guna2Button()
         Me.pnlND1_S2_Calculator = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2GroupBox4 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.Guna2Button91 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button90 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button89 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button88 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button37 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button42 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button59 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button60 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button77 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button78 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button79 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button80 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button81 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button82 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button83 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button84 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button85 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button86 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button87 = New Guna.UI2.WinForms.Guna2Button()
         Me.gns121_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2HtmlLabel27 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.com125_txt = New Guna.UI2.WinForms.Guna2TextBox()
@@ -254,32 +275,12 @@ Partial Class Form1
         Me.Guna2HtmlLabel66 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2TextBox22 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2Button76 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2GroupBox4 = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button37 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button42 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button59 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button60 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button77 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button78 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button79 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button80 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button81 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button82 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button83 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button84 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button85 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button86 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button87 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button88 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button89 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button90 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button91 = New Guna.UI2.WinForms.Guna2Button()
         Me.pnlMainMenu.SuspendLayout()
         Me.pnlND1Semesters.SuspendLayout()
         Me.pnlND1_S1_Calculator.SuspendLayout()
         Me.GRPCOURSEUNIT.SuspendLayout()
         Me.pnlND1_S2_Calculator.SuspendLayout()
+        Me.Guna2GroupBox4.SuspendLayout()
         Me.pnlND2Semesters.SuspendLayout()
         Me.pnlND2_S2_Calculator.SuspendLayout()
         Me.Guna2GroupBox2.SuspendLayout()
@@ -287,7 +288,6 @@ Partial Class Form1
         Me.Guna2GroupBox1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         Me.Guna2GroupBox3.SuspendLayout()
-        Me.Guna2GroupBox4.SuspendLayout()
         Me.SuspendLayout()
         '
         'pnlMainMenu
@@ -340,11 +340,11 @@ Partial Class Form1
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.Navy
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(327, 89)
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(396, 48)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(576, 33)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(576, 64)
         Me.Guna2HtmlLabel1.TabIndex = 0
-        Me.Guna2HtmlLabel1.Text = "NATIONAL DIPLOMA CGPA CALCULATOR"
+        Me.Guna2HtmlLabel1.Text = "NATIONAL DIPLOMA CGPA CALCULATOR <BR/>" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FOR COMPUTER SCIENCE, MAPOLY"
         Me.Guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
         'pnlND1Semesters
@@ -386,7 +386,7 @@ Partial Class Form1
         Me.btnSecondSemester.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSecondSemester.ForeColor = System.Drawing.Color.White
         Me.btnSecondSemester.HoverState.Parent = Me.btnSecondSemester
-        Me.btnSecondSemester.Location = New System.Drawing.Point(777, 184)
+        Me.btnSecondSemester.Location = New System.Drawing.Point(777, 204)
         Me.btnSecondSemester.Name = "btnSecondSemester"
         Me.btnSecondSemester.ShadowDecoration.Parent = Me.btnSecondSemester
         Me.btnSecondSemester.Size = New System.Drawing.Size(197, 45)
@@ -504,22 +504,22 @@ Partial Class Form1
         Me.Guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel12.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel12.Location = New System.Drawing.Point(605, 493)
+        Me.Guna2HtmlLabel12.Location = New System.Drawing.Point(605, 507)
         Me.Guna2HtmlLabel12.Name = "Guna2HtmlLabel12"
-        Me.Guna2HtmlLabel12.Size = New System.Drawing.Size(191, 20)
+        Me.Guna2HtmlLabel12.Size = New System.Drawing.Size(179, 20)
         Me.Guna2HtmlLabel12.TabIndex = 33
-        Me.Guna2HtmlLabel12.Text = "TOTAL SCORE POINT:  <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel12.Text = "TOTAL SCORE POINT:  "
         '
         'Guna2HtmlLabel11
         '
         Me.Guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel11.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel11.Location = New System.Drawing.Point(323, 493)
+        Me.Guna2HtmlLabel11.Location = New System.Drawing.Point(323, 507)
         Me.Guna2HtmlLabel11.Name = "Guna2HtmlLabel11"
-        Me.Guna2HtmlLabel11.Size = New System.Drawing.Size(133, 20)
+        Me.Guna2HtmlLabel11.Size = New System.Drawing.Size(121, 20)
         Me.Guna2HtmlLabel11.TabIndex = 32
-        Me.Guna2HtmlLabel11.Text = "GRADE POINT: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel11.Text = "GRADE POINT: "
         Me.Guna2HtmlLabel11.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Guna2HtmlLabel10
@@ -527,11 +527,11 @@ Partial Class Form1
         Me.Guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel10.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel10.Location = New System.Drawing.Point(50, 493)
+        Me.Guna2HtmlLabel10.Location = New System.Drawing.Point(50, 507)
         Me.Guna2HtmlLabel10.Name = "Guna2HtmlLabel10"
-        Me.Guna2HtmlLabel10.Size = New System.Drawing.Size(78, 20)
+        Me.Guna2HtmlLabel10.Size = New System.Drawing.Size(66, 20)
         Me.Guna2HtmlLabel10.TabIndex = 31
-        Me.Guna2HtmlLabel10.Text = "GRADE: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel10.Text = "GRADE: "
         '
         'grade_txt
         '
@@ -1283,6 +1283,337 @@ Partial Class Form1
         Me.pnlND1_S2_Calculator.TabIndex = 38
         Me.pnlND1_S2_Calculator.Visible = False
         '
+        'Guna2GroupBox4
+        '
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button91)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button90)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button89)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button88)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button4)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button37)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button42)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button59)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button60)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button77)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button78)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button79)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button80)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button81)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button82)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button83)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button84)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button85)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button86)
+        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button87)
+        Me.Guna2GroupBox4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GroupBox4.ForeColor = System.Drawing.Color.Black
+        Me.Guna2GroupBox4.Location = New System.Drawing.Point(1004, 9)
+        Me.Guna2GroupBox4.Name = "Guna2GroupBox4"
+        Me.Guna2GroupBox4.ShadowDecoration.Parent = Me.Guna2GroupBox4
+        Me.Guna2GroupBox4.Size = New System.Drawing.Size(300, 552)
+        Me.Guna2GroupBox4.TabIndex = 42
+        Me.Guna2GroupBox4.Text = " COURSE UNIT"
+        '
+        'Guna2Button91
+        '
+        Me.Guna2Button91.CheckedState.Parent = Me.Guna2Button91
+        Me.Guna2Button91.CustomImages.Parent = Me.Guna2Button91
+        Me.Guna2Button91.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button91.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button91.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button91.HoverState.Parent = Me.Guna2Button91
+        Me.Guna2Button91.Location = New System.Drawing.Point(213, 501)
+        Me.Guna2Button91.Name = "Guna2Button91"
+        Me.Guna2Button91.ShadowDecoration.Parent = Me.Guna2Button91
+        Me.Guna2Button91.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button91.TabIndex = 19
+        Me.Guna2Button91.Text = "2"
+        '
+        'Guna2Button90
+        '
+        Me.Guna2Button90.CheckedState.Parent = Me.Guna2Button90
+        Me.Guna2Button90.CustomImages.Parent = Me.Guna2Button90
+        Me.Guna2Button90.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button90.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button90.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button90.HoverState.Parent = Me.Guna2Button90
+        Me.Guna2Button90.Location = New System.Drawing.Point(12, 501)
+        Me.Guna2Button90.Name = "Guna2Button90"
+        Me.Guna2Button90.ShadowDecoration.Parent = Me.Guna2Button90
+        Me.Guna2Button90.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button90.TabIndex = 18
+        Me.Guna2Button90.Text = "GNS121"
+        '
+        'Guna2Button89
+        '
+        Me.Guna2Button89.CheckedState.Parent = Me.Guna2Button89
+        Me.Guna2Button89.CustomImages.Parent = Me.Guna2Button89
+        Me.Guna2Button89.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button89.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button89.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button89.HoverState.Parent = Me.Guna2Button89
+        Me.Guna2Button89.Location = New System.Drawing.Point(213, 450)
+        Me.Guna2Button89.Name = "Guna2Button89"
+        Me.Guna2Button89.ShadowDecoration.Parent = Me.Guna2Button89
+        Me.Guna2Button89.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button89.TabIndex = 17
+        Me.Guna2Button89.Text = "2"
+        '
+        'Guna2Button88
+        '
+        Me.Guna2Button88.CheckedState.Parent = Me.Guna2Button88
+        Me.Guna2Button88.CustomImages.Parent = Me.Guna2Button88
+        Me.Guna2Button88.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button88.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button88.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button88.HoverState.Parent = Me.Guna2Button88
+        Me.Guna2Button88.Location = New System.Drawing.Point(12, 452)
+        Me.Guna2Button88.Name = "Guna2Button88"
+        Me.Guna2Button88.ShadowDecoration.Parent = Me.Guna2Button88
+        Me.Guna2Button88.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button88.TabIndex = 16
+        Me.Guna2Button88.Text = "GNS102"
+        '
+        'Guna2Button4
+        '
+        Me.Guna2Button4.CheckedState.Parent = Me.Guna2Button4
+        Me.Guna2Button4.CustomImages.Parent = Me.Guna2Button4
+        Me.Guna2Button4.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button4.HoverState.Parent = Me.Guna2Button4
+        Me.Guna2Button4.Location = New System.Drawing.Point(214, 398)
+        Me.Guna2Button4.Name = "Guna2Button4"
+        Me.Guna2Button4.ShadowDecoration.Parent = Me.Guna2Button4
+        Me.Guna2Button4.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button4.TabIndex = 15
+        Me.Guna2Button4.Text = "2"
+        '
+        'Guna2Button37
+        '
+        Me.Guna2Button37.CheckedState.Parent = Me.Guna2Button37
+        Me.Guna2Button37.CustomImages.Parent = Me.Guna2Button37
+        Me.Guna2Button37.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button37.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button37.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button37.HoverState.Parent = Me.Guna2Button37
+        Me.Guna2Button37.Location = New System.Drawing.Point(214, 346)
+        Me.Guna2Button37.Name = "Guna2Button37"
+        Me.Guna2Button37.ShadowDecoration.Parent = Me.Guna2Button37
+        Me.Guna2Button37.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button37.TabIndex = 14
+        Me.Guna2Button37.Text = "2"
+        '
+        'Guna2Button42
+        '
+        Me.Guna2Button42.CheckedState.Parent = Me.Guna2Button42
+        Me.Guna2Button42.CustomImages.Parent = Me.Guna2Button42
+        Me.Guna2Button42.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button42.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button42.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button42.HoverState.Parent = Me.Guna2Button42
+        Me.Guna2Button42.Location = New System.Drawing.Point(12, 401)
+        Me.Guna2Button42.Name = "Guna2Button42"
+        Me.Guna2Button42.ShadowDecoration.Parent = Me.Guna2Button42
+        Me.Guna2Button42.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button42.TabIndex = 13
+        Me.Guna2Button42.Text = "GNS228"
+        '
+        'Guna2Button59
+        '
+        Me.Guna2Button59.CheckedState.Parent = Me.Guna2Button59
+        Me.Guna2Button59.CustomImages.Parent = Me.Guna2Button59
+        Me.Guna2Button59.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button59.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button59.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button59.HoverState.Parent = Me.Guna2Button59
+        Me.Guna2Button59.Location = New System.Drawing.Point(12, 352)
+        Me.Guna2Button59.Name = "Guna2Button59"
+        Me.Guna2Button59.ShadowDecoration.Parent = Me.Guna2Button59
+        Me.Guna2Button59.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button59.TabIndex = 12
+        Me.Guna2Button59.Text = "EED126"
+        '
+        'Guna2Button60
+        '
+        Me.Guna2Button60.CheckedState.Parent = Me.Guna2Button60
+        Me.Guna2Button60.CustomImages.Parent = Me.Guna2Button60
+        Me.Guna2Button60.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button60.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button60.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button60.HoverState.Parent = Me.Guna2Button60
+        Me.Guna2Button60.Location = New System.Drawing.Point(214, 93)
+        Me.Guna2Button60.Name = "Guna2Button60"
+        Me.Guna2Button60.ShadowDecoration.Parent = Me.Guna2Button60
+        Me.Guna2Button60.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button60.TabIndex = 11
+        Me.Guna2Button60.Text = "3"
+        '
+        'Guna2Button77
+        '
+        Me.Guna2Button77.CheckedState.Parent = Me.Guna2Button77
+        Me.Guna2Button77.CustomImages.Parent = Me.Guna2Button77
+        Me.Guna2Button77.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button77.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button77.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button77.HoverState.Parent = Me.Guna2Button77
+        Me.Guna2Button77.Location = New System.Drawing.Point(213, 143)
+        Me.Guna2Button77.Name = "Guna2Button77"
+        Me.Guna2Button77.ShadowDecoration.Parent = Me.Guna2Button77
+        Me.Guna2Button77.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button77.TabIndex = 10
+        Me.Guna2Button77.Text = "3"
+        '
+        'Guna2Button78
+        '
+        Me.Guna2Button78.CheckedState.Parent = Me.Guna2Button78
+        Me.Guna2Button78.CustomImages.Parent = Me.Guna2Button78
+        Me.Guna2Button78.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button78.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button78.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button78.HoverState.Parent = Me.Guna2Button78
+        Me.Guna2Button78.Location = New System.Drawing.Point(214, 192)
+        Me.Guna2Button78.Name = "Guna2Button78"
+        Me.Guna2Button78.ShadowDecoration.Parent = Me.Guna2Button78
+        Me.Guna2Button78.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button78.TabIndex = 9
+        Me.Guna2Button78.Text = "3"
+        '
+        'Guna2Button79
+        '
+        Me.Guna2Button79.CheckedState.Parent = Me.Guna2Button79
+        Me.Guna2Button79.CustomImages.Parent = Me.Guna2Button79
+        Me.Guna2Button79.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button79.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button79.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button79.HoverState.Parent = Me.Guna2Button79
+        Me.Guna2Button79.Location = New System.Drawing.Point(214, 244)
+        Me.Guna2Button79.Name = "Guna2Button79"
+        Me.Guna2Button79.ShadowDecoration.Parent = Me.Guna2Button79
+        Me.Guna2Button79.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button79.TabIndex = 8
+        Me.Guna2Button79.Text = "3"
+        '
+        'Guna2Button80
+        '
+        Me.Guna2Button80.CheckedState.Parent = Me.Guna2Button80
+        Me.Guna2Button80.CustomImages.Parent = Me.Guna2Button80
+        Me.Guna2Button80.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button80.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button80.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button80.HoverState.Parent = Me.Guna2Button80
+        Me.Guna2Button80.Location = New System.Drawing.Point(214, 295)
+        Me.Guna2Button80.Name = "Guna2Button80"
+        Me.Guna2Button80.ShadowDecoration.Parent = Me.Guna2Button80
+        Me.Guna2Button80.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button80.TabIndex = 7
+        Me.Guna2Button80.Text = "3"
+        '
+        'Guna2Button81
+        '
+        Me.Guna2Button81.CheckedState.Parent = Me.Guna2Button81
+        Me.Guna2Button81.CustomImages.Parent = Me.Guna2Button81
+        Me.Guna2Button81.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button81.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button81.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button81.HoverState.Parent = Me.Guna2Button81
+        Me.Guna2Button81.Location = New System.Drawing.Point(214, 42)
+        Me.Guna2Button81.Name = "Guna2Button81"
+        Me.Guna2Button81.ShadowDecoration.Parent = Me.Guna2Button81
+        Me.Guna2Button81.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button81.TabIndex = 6
+        Me.Guna2Button81.Text = "3"
+        '
+        'Guna2Button82
+        '
+        Me.Guna2Button82.CheckedState.Parent = Me.Guna2Button82
+        Me.Guna2Button82.CustomImages.Parent = Me.Guna2Button82
+        Me.Guna2Button82.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button82.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button82.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button82.HoverState.Parent = Me.Guna2Button82
+        Me.Guna2Button82.Location = New System.Drawing.Point(12, 301)
+        Me.Guna2Button82.Name = "Guna2Button82"
+        Me.Guna2Button82.ShadowDecoration.Parent = Me.Guna2Button82
+        Me.Guna2Button82.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button82.TabIndex = 5
+        Me.Guna2Button82.Text = "COM126"
+        '
+        'Guna2Button83
+        '
+        Me.Guna2Button83.CheckedState.Parent = Me.Guna2Button83
+        Me.Guna2Button83.CustomImages.Parent = Me.Guna2Button83
+        Me.Guna2Button83.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button83.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button83.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button83.HoverState.Parent = Me.Guna2Button83
+        Me.Guna2Button83.Location = New System.Drawing.Point(12, 249)
+        Me.Guna2Button83.Name = "Guna2Button83"
+        Me.Guna2Button83.ShadowDecoration.Parent = Me.Guna2Button83
+        Me.Guna2Button83.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button83.TabIndex = 4
+        Me.Guna2Button83.Text = "COM125"
+        '
+        'Guna2Button84
+        '
+        Me.Guna2Button84.CheckedState.Parent = Me.Guna2Button84
+        Me.Guna2Button84.CustomImages.Parent = Me.Guna2Button84
+        Me.Guna2Button84.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button84.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button84.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button84.HoverState.Parent = Me.Guna2Button84
+        Me.Guna2Button84.Location = New System.Drawing.Point(12, 96)
+        Me.Guna2Button84.Name = "Guna2Button84"
+        Me.Guna2Button84.ShadowDecoration.Parent = Me.Guna2Button84
+        Me.Guna2Button84.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button84.TabIndex = 3
+        Me.Guna2Button84.Text = "COM122"
+        '
+        'Guna2Button85
+        '
+        Me.Guna2Button85.CheckedState.Parent = Me.Guna2Button85
+        Me.Guna2Button85.CustomImages.Parent = Me.Guna2Button85
+        Me.Guna2Button85.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button85.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button85.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button85.HoverState.Parent = Me.Guna2Button85
+        Me.Guna2Button85.Location = New System.Drawing.Point(12, 145)
+        Me.Guna2Button85.Name = "Guna2Button85"
+        Me.Guna2Button85.ShadowDecoration.Parent = Me.Guna2Button85
+        Me.Guna2Button85.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button85.TabIndex = 2
+        Me.Guna2Button85.Text = "COM123"
+        '
+        'Guna2Button86
+        '
+        Me.Guna2Button86.CheckedState.Parent = Me.Guna2Button86
+        Me.Guna2Button86.CustomImages.Parent = Me.Guna2Button86
+        Me.Guna2Button86.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button86.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button86.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button86.HoverState.Parent = Me.Guna2Button86
+        Me.Guna2Button86.Location = New System.Drawing.Point(12, 196)
+        Me.Guna2Button86.Name = "Guna2Button86"
+        Me.Guna2Button86.ShadowDecoration.Parent = Me.Guna2Button86
+        Me.Guna2Button86.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button86.TabIndex = 1
+        Me.Guna2Button86.Text = "COM124"
+        '
+        'Guna2Button87
+        '
+        Me.Guna2Button87.CheckedState.Parent = Me.Guna2Button87
+        Me.Guna2Button87.CustomImages.Parent = Me.Guna2Button87
+        Me.Guna2Button87.FillColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button87.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button87.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button87.HoverState.Parent = Me.Guna2Button87
+        Me.Guna2Button87.Location = New System.Drawing.Point(12, 47)
+        Me.Guna2Button87.Name = "Guna2Button87"
+        Me.Guna2Button87.ShadowDecoration.Parent = Me.Guna2Button87
+        Me.Guna2Button87.Size = New System.Drawing.Size(71, 45)
+        Me.Guna2Button87.TabIndex = 0
+        Me.Guna2Button87.Text = "COM121"
+        '
         'gns121_txt
         '
         Me.gns121_txt.BackColor = System.Drawing.Color.White
@@ -1426,9 +1757,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel15.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel15.Location = New System.Drawing.Point(605, 538)
         Me.Guna2HtmlLabel15.Name = "Guna2HtmlLabel15"
-        Me.Guna2HtmlLabel15.Size = New System.Drawing.Size(191, 20)
+        Me.Guna2HtmlLabel15.Size = New System.Drawing.Size(179, 20)
         Me.Guna2HtmlLabel15.TabIndex = 33
-        Me.Guna2HtmlLabel15.Text = "TOTAL SCORE POINT:  <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel15.Text = "TOTAL SCORE POINT:  "
         '
         'Guna2HtmlLabel16
         '
@@ -1437,9 +1768,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel16.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel16.Location = New System.Drawing.Point(323, 538)
         Me.Guna2HtmlLabel16.Name = "Guna2HtmlLabel16"
-        Me.Guna2HtmlLabel16.Size = New System.Drawing.Size(133, 20)
+        Me.Guna2HtmlLabel16.Size = New System.Drawing.Size(121, 20)
         Me.Guna2HtmlLabel16.TabIndex = 32
-        Me.Guna2HtmlLabel16.Text = "GRADE POINT: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel16.Text = "GRADE POINT: "
         Me.Guna2HtmlLabel16.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Guna2HtmlLabel17
@@ -1449,9 +1780,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel17.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel17.Location = New System.Drawing.Point(50, 540)
         Me.Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
-        Me.Guna2HtmlLabel17.Size = New System.Drawing.Size(78, 20)
+        Me.Guna2HtmlLabel17.Size = New System.Drawing.Size(66, 20)
         Me.Guna2HtmlLabel17.TabIndex = 31
-        Me.Guna2HtmlLabel17.Text = "GRADE: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel17.Text = "GRADE: "
         '
         'grade_txt_S2
         '
@@ -1913,7 +2244,7 @@ Partial Class Form1
         Me.btnND2SecondSemester.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnND2SecondSemester.ForeColor = System.Drawing.Color.White
         Me.btnND2SecondSemester.HoverState.Parent = Me.btnND2SecondSemester
-        Me.btnND2SecondSemester.Location = New System.Drawing.Point(696, 190)
+        Me.btnND2SecondSemester.Location = New System.Drawing.Point(696, 198)
         Me.btnND2SecondSemester.Name = "btnND2SecondSemester"
         Me.btnND2SecondSemester.ShadowDecoration.Parent = Me.btnND2SecondSemester
         Me.btnND2SecondSemester.Size = New System.Drawing.Size(207, 45)
@@ -2033,9 +2364,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel31.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel31.Location = New System.Drawing.Point(605, 524)
         Me.Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
-        Me.Guna2HtmlLabel31.Size = New System.Drawing.Size(191, 20)
+        Me.Guna2HtmlLabel31.Size = New System.Drawing.Size(179, 20)
         Me.Guna2HtmlLabel31.TabIndex = 33
-        Me.Guna2HtmlLabel31.Text = "TOTAL SCORE POINT:  <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel31.Text = "TOTAL SCORE POINT:  "
         '
         'Guna2HtmlLabel32
         '
@@ -2044,9 +2375,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel32.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel32.Location = New System.Drawing.Point(331, 527)
         Me.Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
-        Me.Guna2HtmlLabel32.Size = New System.Drawing.Size(133, 20)
+        Me.Guna2HtmlLabel32.Size = New System.Drawing.Size(121, 20)
         Me.Guna2HtmlLabel32.TabIndex = 32
-        Me.Guna2HtmlLabel32.Text = "GRADE POINT: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel32.Text = "GRADE POINT: "
         Me.Guna2HtmlLabel32.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Guna2HtmlLabel33
@@ -2056,9 +2387,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel33.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel33.Location = New System.Drawing.Point(37, 527)
         Me.Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
-        Me.Guna2HtmlLabel33.Size = New System.Drawing.Size(78, 20)
+        Me.Guna2HtmlLabel33.Size = New System.Drawing.Size(66, 20)
         Me.Guna2HtmlLabel33.TabIndex = 31
-        Me.Guna2HtmlLabel33.Text = "GRADE: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel33.Text = "GRADE: "
         '
         'grade_txt_NDS2
         '
@@ -2880,9 +3211,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel43.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel43.Location = New System.Drawing.Point(603, 539)
         Me.Guna2HtmlLabel43.Name = "Guna2HtmlLabel43"
-        Me.Guna2HtmlLabel43.Size = New System.Drawing.Size(191, 20)
+        Me.Guna2HtmlLabel43.Size = New System.Drawing.Size(179, 20)
         Me.Guna2HtmlLabel43.TabIndex = 33
-        Me.Guna2HtmlLabel43.Text = "TOTAL SCORE POINT:  <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel43.Text = "TOTAL SCORE POINT:  "
         '
         'Guna2HtmlLabel44
         '
@@ -2891,9 +3222,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel44.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel44.Location = New System.Drawing.Point(337, 537)
         Me.Guna2HtmlLabel44.Name = "Guna2HtmlLabel44"
-        Me.Guna2HtmlLabel44.Size = New System.Drawing.Size(133, 20)
+        Me.Guna2HtmlLabel44.Size = New System.Drawing.Size(121, 20)
         Me.Guna2HtmlLabel44.TabIndex = 32
-        Me.Guna2HtmlLabel44.Text = "GRADE POINT: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel44.Text = "GRADE POINT: "
         Me.Guna2HtmlLabel44.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Guna2HtmlLabel45
@@ -2903,9 +3234,9 @@ Partial Class Form1
         Me.Guna2HtmlLabel45.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel45.Location = New System.Drawing.Point(38, 535)
         Me.Guna2HtmlLabel45.Name = "Guna2HtmlLabel45"
-        Me.Guna2HtmlLabel45.Size = New System.Drawing.Size(78, 20)
+        Me.Guna2HtmlLabel45.Size = New System.Drawing.Size(66, 20)
         Me.Guna2HtmlLabel45.TabIndex = 31
-        Me.Guna2HtmlLabel45.Text = "GRADE: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel45.Text = "GRADE: "
         '
         'grade_txt_ND2S1
         '
@@ -3719,22 +4050,22 @@ Partial Class Form1
         Me.Guna2HtmlLabel56.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel56.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel56.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel56.Location = New System.Drawing.Point(605, 493)
+        Me.Guna2HtmlLabel56.Location = New System.Drawing.Point(605, 509)
         Me.Guna2HtmlLabel56.Name = "Guna2HtmlLabel56"
-        Me.Guna2HtmlLabel56.Size = New System.Drawing.Size(191, 20)
+        Me.Guna2HtmlLabel56.Size = New System.Drawing.Size(179, 20)
         Me.Guna2HtmlLabel56.TabIndex = 33
-        Me.Guna2HtmlLabel56.Text = "TOTAL SCORE POINT:  <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel56.Text = "TOTAL SCORE POINT:  "
         '
         'Guna2HtmlLabel57
         '
         Me.Guna2HtmlLabel57.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel57.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel57.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel57.Location = New System.Drawing.Point(323, 493)
+        Me.Guna2HtmlLabel57.Location = New System.Drawing.Point(323, 509)
         Me.Guna2HtmlLabel57.Name = "Guna2HtmlLabel57"
-        Me.Guna2HtmlLabel57.Size = New System.Drawing.Size(133, 20)
+        Me.Guna2HtmlLabel57.Size = New System.Drawing.Size(121, 20)
         Me.Guna2HtmlLabel57.TabIndex = 32
-        Me.Guna2HtmlLabel57.Text = "GRADE POINT: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel57.Text = "GRADE POINT: "
         Me.Guna2HtmlLabel57.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Guna2HtmlLabel58
@@ -3742,11 +4073,11 @@ Partial Class Form1
         Me.Guna2HtmlLabel58.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel58.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel58.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel58.Location = New System.Drawing.Point(50, 493)
+        Me.Guna2HtmlLabel58.Location = New System.Drawing.Point(50, 509)
         Me.Guna2HtmlLabel58.Name = "Guna2HtmlLabel58"
-        Me.Guna2HtmlLabel58.Size = New System.Drawing.Size(78, 20)
+        Me.Guna2HtmlLabel58.Size = New System.Drawing.Size(66, 20)
         Me.Guna2HtmlLabel58.TabIndex = 31
-        Me.Guna2HtmlLabel58.Text = "GRADE: <fore color = ""red"">*</fore color/>"
+        Me.Guna2HtmlLabel58.Text = "GRADE: "
         '
         'Guna2TextBox12
         '
@@ -4440,337 +4771,6 @@ Partial Class Form1
         Me.Guna2Button76.TabIndex = 37
         Me.Guna2Button76.Text = "BACK TO MAIN "
         '
-        'Guna2GroupBox4
-        '
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button91)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button90)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button89)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button88)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button4)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button37)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button42)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button59)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button60)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button77)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button78)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button79)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button80)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button81)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button82)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button83)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button84)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button85)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button86)
-        Me.Guna2GroupBox4.Controls.Add(Me.Guna2Button87)
-        Me.Guna2GroupBox4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GroupBox4.ForeColor = System.Drawing.Color.Black
-        Me.Guna2GroupBox4.Location = New System.Drawing.Point(1004, 9)
-        Me.Guna2GroupBox4.Name = "Guna2GroupBox4"
-        Me.Guna2GroupBox4.ShadowDecoration.Parent = Me.Guna2GroupBox4
-        Me.Guna2GroupBox4.Size = New System.Drawing.Size(300, 552)
-        Me.Guna2GroupBox4.TabIndex = 42
-        Me.Guna2GroupBox4.Text = " COURSE UNIT"
-        '
-        'Guna2Button4
-        '
-        Me.Guna2Button4.CheckedState.Parent = Me.Guna2Button4
-        Me.Guna2Button4.CustomImages.Parent = Me.Guna2Button4
-        Me.Guna2Button4.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.HoverState.Parent = Me.Guna2Button4
-        Me.Guna2Button4.Location = New System.Drawing.Point(214, 398)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.ShadowDecoration.Parent = Me.Guna2Button4
-        Me.Guna2Button4.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button4.TabIndex = 15
-        Me.Guna2Button4.Text = "2"
-        '
-        'Guna2Button37
-        '
-        Me.Guna2Button37.CheckedState.Parent = Me.Guna2Button37
-        Me.Guna2Button37.CustomImages.Parent = Me.Guna2Button37
-        Me.Guna2Button37.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button37.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button37.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button37.HoverState.Parent = Me.Guna2Button37
-        Me.Guna2Button37.Location = New System.Drawing.Point(214, 346)
-        Me.Guna2Button37.Name = "Guna2Button37"
-        Me.Guna2Button37.ShadowDecoration.Parent = Me.Guna2Button37
-        Me.Guna2Button37.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button37.TabIndex = 14
-        Me.Guna2Button37.Text = "2"
-        '
-        'Guna2Button42
-        '
-        Me.Guna2Button42.CheckedState.Parent = Me.Guna2Button42
-        Me.Guna2Button42.CustomImages.Parent = Me.Guna2Button42
-        Me.Guna2Button42.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button42.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button42.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button42.HoverState.Parent = Me.Guna2Button42
-        Me.Guna2Button42.Location = New System.Drawing.Point(12, 401)
-        Me.Guna2Button42.Name = "Guna2Button42"
-        Me.Guna2Button42.ShadowDecoration.Parent = Me.Guna2Button42
-        Me.Guna2Button42.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button42.TabIndex = 13
-        Me.Guna2Button42.Text = "GNS228"
-        '
-        'Guna2Button59
-        '
-        Me.Guna2Button59.CheckedState.Parent = Me.Guna2Button59
-        Me.Guna2Button59.CustomImages.Parent = Me.Guna2Button59
-        Me.Guna2Button59.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button59.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button59.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button59.HoverState.Parent = Me.Guna2Button59
-        Me.Guna2Button59.Location = New System.Drawing.Point(12, 352)
-        Me.Guna2Button59.Name = "Guna2Button59"
-        Me.Guna2Button59.ShadowDecoration.Parent = Me.Guna2Button59
-        Me.Guna2Button59.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button59.TabIndex = 12
-        Me.Guna2Button59.Text = "EED126"
-        '
-        'Guna2Button60
-        '
-        Me.Guna2Button60.CheckedState.Parent = Me.Guna2Button60
-        Me.Guna2Button60.CustomImages.Parent = Me.Guna2Button60
-        Me.Guna2Button60.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button60.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button60.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button60.HoverState.Parent = Me.Guna2Button60
-        Me.Guna2Button60.Location = New System.Drawing.Point(214, 93)
-        Me.Guna2Button60.Name = "Guna2Button60"
-        Me.Guna2Button60.ShadowDecoration.Parent = Me.Guna2Button60
-        Me.Guna2Button60.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button60.TabIndex = 11
-        Me.Guna2Button60.Text = "3"
-        '
-        'Guna2Button77
-        '
-        Me.Guna2Button77.CheckedState.Parent = Me.Guna2Button77
-        Me.Guna2Button77.CustomImages.Parent = Me.Guna2Button77
-        Me.Guna2Button77.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button77.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button77.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button77.HoverState.Parent = Me.Guna2Button77
-        Me.Guna2Button77.Location = New System.Drawing.Point(213, 143)
-        Me.Guna2Button77.Name = "Guna2Button77"
-        Me.Guna2Button77.ShadowDecoration.Parent = Me.Guna2Button77
-        Me.Guna2Button77.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button77.TabIndex = 10
-        Me.Guna2Button77.Text = "3"
-        '
-        'Guna2Button78
-        '
-        Me.Guna2Button78.CheckedState.Parent = Me.Guna2Button78
-        Me.Guna2Button78.CustomImages.Parent = Me.Guna2Button78
-        Me.Guna2Button78.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button78.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button78.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button78.HoverState.Parent = Me.Guna2Button78
-        Me.Guna2Button78.Location = New System.Drawing.Point(214, 192)
-        Me.Guna2Button78.Name = "Guna2Button78"
-        Me.Guna2Button78.ShadowDecoration.Parent = Me.Guna2Button78
-        Me.Guna2Button78.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button78.TabIndex = 9
-        Me.Guna2Button78.Text = "3"
-        '
-        'Guna2Button79
-        '
-        Me.Guna2Button79.CheckedState.Parent = Me.Guna2Button79
-        Me.Guna2Button79.CustomImages.Parent = Me.Guna2Button79
-        Me.Guna2Button79.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button79.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button79.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button79.HoverState.Parent = Me.Guna2Button79
-        Me.Guna2Button79.Location = New System.Drawing.Point(214, 244)
-        Me.Guna2Button79.Name = "Guna2Button79"
-        Me.Guna2Button79.ShadowDecoration.Parent = Me.Guna2Button79
-        Me.Guna2Button79.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button79.TabIndex = 8
-        Me.Guna2Button79.Text = "3"
-        '
-        'Guna2Button80
-        '
-        Me.Guna2Button80.CheckedState.Parent = Me.Guna2Button80
-        Me.Guna2Button80.CustomImages.Parent = Me.Guna2Button80
-        Me.Guna2Button80.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button80.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button80.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button80.HoverState.Parent = Me.Guna2Button80
-        Me.Guna2Button80.Location = New System.Drawing.Point(214, 295)
-        Me.Guna2Button80.Name = "Guna2Button80"
-        Me.Guna2Button80.ShadowDecoration.Parent = Me.Guna2Button80
-        Me.Guna2Button80.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button80.TabIndex = 7
-        Me.Guna2Button80.Text = "3"
-        '
-        'Guna2Button81
-        '
-        Me.Guna2Button81.CheckedState.Parent = Me.Guna2Button81
-        Me.Guna2Button81.CustomImages.Parent = Me.Guna2Button81
-        Me.Guna2Button81.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button81.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button81.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button81.HoverState.Parent = Me.Guna2Button81
-        Me.Guna2Button81.Location = New System.Drawing.Point(214, 42)
-        Me.Guna2Button81.Name = "Guna2Button81"
-        Me.Guna2Button81.ShadowDecoration.Parent = Me.Guna2Button81
-        Me.Guna2Button81.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button81.TabIndex = 6
-        Me.Guna2Button81.Text = "3"
-        '
-        'Guna2Button82
-        '
-        Me.Guna2Button82.CheckedState.Parent = Me.Guna2Button82
-        Me.Guna2Button82.CustomImages.Parent = Me.Guna2Button82
-        Me.Guna2Button82.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button82.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button82.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button82.HoverState.Parent = Me.Guna2Button82
-        Me.Guna2Button82.Location = New System.Drawing.Point(12, 301)
-        Me.Guna2Button82.Name = "Guna2Button82"
-        Me.Guna2Button82.ShadowDecoration.Parent = Me.Guna2Button82
-        Me.Guna2Button82.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button82.TabIndex = 5
-        Me.Guna2Button82.Text = "COM126"
-        '
-        'Guna2Button83
-        '
-        Me.Guna2Button83.CheckedState.Parent = Me.Guna2Button83
-        Me.Guna2Button83.CustomImages.Parent = Me.Guna2Button83
-        Me.Guna2Button83.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button83.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button83.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button83.HoverState.Parent = Me.Guna2Button83
-        Me.Guna2Button83.Location = New System.Drawing.Point(12, 249)
-        Me.Guna2Button83.Name = "Guna2Button83"
-        Me.Guna2Button83.ShadowDecoration.Parent = Me.Guna2Button83
-        Me.Guna2Button83.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button83.TabIndex = 4
-        Me.Guna2Button83.Text = "COM125"
-        '
-        'Guna2Button84
-        '
-        Me.Guna2Button84.CheckedState.Parent = Me.Guna2Button84
-        Me.Guna2Button84.CustomImages.Parent = Me.Guna2Button84
-        Me.Guna2Button84.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button84.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button84.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button84.HoverState.Parent = Me.Guna2Button84
-        Me.Guna2Button84.Location = New System.Drawing.Point(12, 96)
-        Me.Guna2Button84.Name = "Guna2Button84"
-        Me.Guna2Button84.ShadowDecoration.Parent = Me.Guna2Button84
-        Me.Guna2Button84.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button84.TabIndex = 3
-        Me.Guna2Button84.Text = "COM122"
-        '
-        'Guna2Button85
-        '
-        Me.Guna2Button85.CheckedState.Parent = Me.Guna2Button85
-        Me.Guna2Button85.CustomImages.Parent = Me.Guna2Button85
-        Me.Guna2Button85.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button85.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button85.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button85.HoverState.Parent = Me.Guna2Button85
-        Me.Guna2Button85.Location = New System.Drawing.Point(12, 145)
-        Me.Guna2Button85.Name = "Guna2Button85"
-        Me.Guna2Button85.ShadowDecoration.Parent = Me.Guna2Button85
-        Me.Guna2Button85.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button85.TabIndex = 2
-        Me.Guna2Button85.Text = "COM123"
-        '
-        'Guna2Button86
-        '
-        Me.Guna2Button86.CheckedState.Parent = Me.Guna2Button86
-        Me.Guna2Button86.CustomImages.Parent = Me.Guna2Button86
-        Me.Guna2Button86.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button86.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button86.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button86.HoverState.Parent = Me.Guna2Button86
-        Me.Guna2Button86.Location = New System.Drawing.Point(12, 196)
-        Me.Guna2Button86.Name = "Guna2Button86"
-        Me.Guna2Button86.ShadowDecoration.Parent = Me.Guna2Button86
-        Me.Guna2Button86.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button86.TabIndex = 1
-        Me.Guna2Button86.Text = "COM124"
-        '
-        'Guna2Button87
-        '
-        Me.Guna2Button87.CheckedState.Parent = Me.Guna2Button87
-        Me.Guna2Button87.CustomImages.Parent = Me.Guna2Button87
-        Me.Guna2Button87.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button87.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button87.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button87.HoverState.Parent = Me.Guna2Button87
-        Me.Guna2Button87.Location = New System.Drawing.Point(12, 47)
-        Me.Guna2Button87.Name = "Guna2Button87"
-        Me.Guna2Button87.ShadowDecoration.Parent = Me.Guna2Button87
-        Me.Guna2Button87.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button87.TabIndex = 0
-        Me.Guna2Button87.Text = "COM121"
-        '
-        'Guna2Button88
-        '
-        Me.Guna2Button88.CheckedState.Parent = Me.Guna2Button88
-        Me.Guna2Button88.CustomImages.Parent = Me.Guna2Button88
-        Me.Guna2Button88.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button88.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button88.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button88.HoverState.Parent = Me.Guna2Button88
-        Me.Guna2Button88.Location = New System.Drawing.Point(12, 452)
-        Me.Guna2Button88.Name = "Guna2Button88"
-        Me.Guna2Button88.ShadowDecoration.Parent = Me.Guna2Button88
-        Me.Guna2Button88.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button88.TabIndex = 16
-        Me.Guna2Button88.Text = "GNS102"
-        '
-        'Guna2Button89
-        '
-        Me.Guna2Button89.CheckedState.Parent = Me.Guna2Button89
-        Me.Guna2Button89.CustomImages.Parent = Me.Guna2Button89
-        Me.Guna2Button89.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button89.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button89.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button89.HoverState.Parent = Me.Guna2Button89
-        Me.Guna2Button89.Location = New System.Drawing.Point(213, 450)
-        Me.Guna2Button89.Name = "Guna2Button89"
-        Me.Guna2Button89.ShadowDecoration.Parent = Me.Guna2Button89
-        Me.Guna2Button89.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button89.TabIndex = 17
-        Me.Guna2Button89.Text = "2"
-        '
-        'Guna2Button90
-        '
-        Me.Guna2Button90.CheckedState.Parent = Me.Guna2Button90
-        Me.Guna2Button90.CustomImages.Parent = Me.Guna2Button90
-        Me.Guna2Button90.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button90.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button90.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button90.HoverState.Parent = Me.Guna2Button90
-        Me.Guna2Button90.Location = New System.Drawing.Point(12, 501)
-        Me.Guna2Button90.Name = "Guna2Button90"
-        Me.Guna2Button90.ShadowDecoration.Parent = Me.Guna2Button90
-        Me.Guna2Button90.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button90.TabIndex = 18
-        Me.Guna2Button90.Text = "GNS121"
-        '
-        'Guna2Button91
-        '
-        Me.Guna2Button91.CheckedState.Parent = Me.Guna2Button91
-        Me.Guna2Button91.CustomImages.Parent = Me.Guna2Button91
-        Me.Guna2Button91.FillColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button91.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button91.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button91.HoverState.Parent = Me.Guna2Button91
-        Me.Guna2Button91.Location = New System.Drawing.Point(213, 501)
-        Me.Guna2Button91.Name = "Guna2Button91"
-        Me.Guna2Button91.ShadowDecoration.Parent = Me.Guna2Button91
-        Me.Guna2Button91.Size = New System.Drawing.Size(71, 45)
-        Me.Guna2Button91.TabIndex = 19
-        Me.Guna2Button91.Text = "2"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -4798,6 +4798,7 @@ Partial Class Form1
         Me.GRPCOURSEUNIT.ResumeLayout(False)
         Me.pnlND1_S2_Calculator.ResumeLayout(False)
         Me.pnlND1_S2_Calculator.PerformLayout()
+        Me.Guna2GroupBox4.ResumeLayout(False)
         Me.pnlND2Semesters.ResumeLayout(False)
         Me.pnlND2Semesters.PerformLayout()
         Me.pnlND2_S2_Calculator.ResumeLayout(False)
@@ -4809,12 +4810,10 @@ Partial Class Form1
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()
         Me.Guna2GroupBox3.ResumeLayout(False)
-        Me.Guna2GroupBox4.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents pnlMainMenu As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents pnlND1Semesters As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents btnND2 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnND1 As Guna.UI2.WinForms.Guna2Button
@@ -5066,5 +5065,6 @@ Partial Class Form1
     Friend WithEvents Guna2Button85 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button86 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button87 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
 
 End Class

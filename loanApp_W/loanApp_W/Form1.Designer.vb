@@ -22,10 +22,10 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -37,6 +37,8 @@ Partial Class Form1
         Me.totalRepay_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.monthlyGrid = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -62,7 +64,7 @@ Partial Class Form1
         Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(28, 114)
+        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(28, 85)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(225, 18)
         Me.Guna2HtmlLabel2.TabIndex = 1
@@ -73,7 +75,7 @@ Partial Class Form1
         Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(508, 111)
+        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(28, 198)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(239, 18)
         Me.Guna2HtmlLabel3.TabIndex = 2
@@ -96,7 +98,7 @@ Partial Class Form1
         Me.amount_txt.ForeColor = System.Drawing.Color.Black
         Me.amount_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.amount_txt.HoverState.Parent = Me.amount_txt
-        Me.amount_txt.Location = New System.Drawing.Point(297, 108)
+        Me.amount_txt.Location = New System.Drawing.Point(28, 124)
         Me.amount_txt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.amount_txt.Name = "amount_txt"
         Me.amount_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -123,7 +125,7 @@ Partial Class Form1
         Me.duration_txt.ForeColor = System.Drawing.Color.Black
         Me.duration_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.duration_txt.HoverState.Parent = Me.duration_txt
-        Me.duration_txt.Location = New System.Drawing.Point(795, 108)
+        Me.duration_txt.Location = New System.Drawing.Point(28, 241)
         Me.duration_txt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.duration_txt.Name = "duration_txt"
         Me.duration_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -165,7 +167,7 @@ Partial Class Form1
         Me.totalLoan_txt.ForeColor = System.Drawing.Color.Black
         Me.totalLoan_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.totalLoan_txt.HoverState.Parent = Me.totalLoan_txt
-        Me.totalLoan_txt.Location = New System.Drawing.Point(28, 347)
+        Me.totalLoan_txt.Location = New System.Drawing.Point(28, 375)
         Me.totalLoan_txt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.totalLoan_txt.Name = "totalLoan_txt"
         Me.totalLoan_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -192,7 +194,7 @@ Partial Class Form1
         Me.totalInterest_txt.ForeColor = System.Drawing.Color.Black
         Me.totalInterest_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.totalInterest_txt.HoverState.Parent = Me.totalInterest_txt
-        Me.totalInterest_txt.Location = New System.Drawing.Point(277, 347)
+        Me.totalInterest_txt.Location = New System.Drawing.Point(219, 375)
         Me.totalInterest_txt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.totalInterest_txt.Name = "totalInterest_txt"
         Me.totalInterest_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -219,7 +221,7 @@ Partial Class Form1
         Me.totalRepay_txt.ForeColor = System.Drawing.Color.Black
         Me.totalRepay_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.totalRepay_txt.HoverState.Parent = Me.totalRepay_txt
-        Me.totalRepay_txt.Location = New System.Drawing.Point(526, 347)
+        Me.totalRepay_txt.Location = New System.Drawing.Point(447, 375)
         Me.totalRepay_txt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.totalRepay_txt.Name = "totalRepay_txt"
         Me.totalRepay_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -231,38 +233,38 @@ Partial Class Form1
         '
         'monthlyGrid
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.monthlyGrid.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.White
+        Me.monthlyGrid.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
         Me.monthlyGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.monthlyGrid.BackgroundColor = System.Drawing.SystemColors.Control
         Me.monthlyGrid.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.monthlyGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.monthlyGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.monthlyGrid.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.monthlyGrid.ColumnHeadersHeight = 21
-        Me.monthlyGrid.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2})
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.monthlyGrid.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.monthlyGrid.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        Me.monthlyGrid.ColumnHeadersHeight = 50
+        Me.monthlyGrid.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column3, Me.Column4, Me.Column2})
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.monthlyGrid.DefaultCellStyle = DataGridViewCellStyle8
         Me.monthlyGrid.EnableHeadersVisualStyles = False
         Me.monthlyGrid.GridColor = System.Drawing.Color.Gray
-        Me.monthlyGrid.Location = New System.Drawing.Point(719, 226)
+        Me.monthlyGrid.Location = New System.Drawing.Point(619, 47)
         Me.monthlyGrid.Name = "monthlyGrid"
         Me.monthlyGrid.RowHeadersVisible = False
         Me.monthlyGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.monthlyGrid.Size = New System.Drawing.Size(240, 213)
+        Me.monthlyGrid.Size = New System.Drawing.Size(553, 336)
         Me.monthlyGrid.TabIndex = 11
         Me.monthlyGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.monthlyGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
@@ -272,12 +274,12 @@ Partial Class Form1
         Me.monthlyGrid.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
         Me.monthlyGrid.ThemeStyle.BackColor = System.Drawing.SystemColors.Control
         Me.monthlyGrid.ThemeStyle.GridColor = System.Drawing.Color.Gray
-        Me.monthlyGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.monthlyGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.monthlyGrid.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.monthlyGrid.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        Me.monthlyGrid.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.monthlyGrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
         Me.monthlyGrid.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.monthlyGrid.ThemeStyle.HeaderStyle.Height = 21
+        Me.monthlyGrid.ThemeStyle.HeaderStyle.Height = 50
         Me.monthlyGrid.ThemeStyle.ReadOnly = False
         Me.monthlyGrid.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
         Me.monthlyGrid.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
@@ -289,14 +291,28 @@ Partial Class Form1
         '
         'Column1
         '
-        Me.Column1.HeaderText = "MONTHLY "
+        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column1.HeaderText = "MONTH"
         Me.Column1.Name = "Column1"
+        '
+        'Column3
+        '
+        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column3.HeaderText = "MONTHLY REPAYMENT"
+        Me.Column3.Name = "Column3"
+        '
+        'Column4
+        '
+        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column4.HeaderText = "MONTHLY INTEREST"
+        Me.Column4.Name = "Column4"
         '
         'Column2
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column2.DefaultCellStyle = DataGridViewCellStyle3
-        Me.Column2.HeaderText = "REPAYMENT"
+        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle7
+        Me.Column2.HeaderText = "TOTAL MONTHLY REPAYMENT"
         Me.Column2.Name = "Column2"
         '
         'Guna2HtmlLabel5
@@ -304,33 +320,33 @@ Partial Class Form1
         Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(40, 309)
+        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(40, 344)
         Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(106, 18)
+        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(96, 18)
         Me.Guna2HtmlLabel5.TabIndex = 12
-        Me.Guna2HtmlLabel5.Text = "TOTAL LOAN <font color = ""red>*</font color>"
+        Me.Guna2HtmlLabel5.Text = "TOTAL LOAN "
         '
         'Guna2HtmlLabel6
         '
         Me.Guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel6.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel6.Location = New System.Drawing.Point(285, 309)
+        Me.Guna2HtmlLabel6.Location = New System.Drawing.Point(219, 344)
         Me.Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
-        Me.Guna2HtmlLabel6.Size = New System.Drawing.Size(142, 18)
+        Me.Guna2HtmlLabel6.Size = New System.Drawing.Size(132, 18)
         Me.Guna2HtmlLabel6.TabIndex = 13
-        Me.Guna2HtmlLabel6.Text = "TOTAL INTEREST <font color = ""red>*</font color>"
+        Me.Guna2HtmlLabel6.Text = "TOTAL INTEREST "
         '
         'Guna2HtmlLabel7
         '
         Me.Guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel7.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel7.Location = New System.Drawing.Point(526, 309)
+        Me.Guna2HtmlLabel7.Location = New System.Drawing.Point(447, 344)
         Me.Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
-        Me.Guna2HtmlLabel7.Size = New System.Drawing.Size(160, 18)
+        Me.Guna2HtmlLabel7.Size = New System.Drawing.Size(150, 18)
         Me.Guna2HtmlLabel7.TabIndex = 14
-        Me.Guna2HtmlLabel7.Text = "TOTAL REPAYMENT <font color = ""red>*</font color>"
+        Me.Guna2HtmlLabel7.Text = "TOTAL REPAYMENT "
         '
         'exitbtn
         '
@@ -366,8 +382,8 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGray
-        Me.ClientSize = New System.Drawing.Size(984, 511)
+        Me.BackColor = System.Drawing.Color.LightGray
+        Me.ClientSize = New System.Drawing.Size(1184, 511)
         Me.Controls.Add(Me.clearbtn)
         Me.Controls.Add(Me.exitbtn)
         Me.Controls.Add(Me.Guna2HtmlLabel7)
@@ -407,6 +423,8 @@ Partial Class Form1
     Friend WithEvents exitbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents clearbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
 
 End Class

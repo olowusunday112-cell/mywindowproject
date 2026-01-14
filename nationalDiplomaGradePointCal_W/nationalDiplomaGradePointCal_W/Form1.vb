@@ -10,7 +10,68 @@
         'lblStatus.Text= "choose your semeter for ND1"
 
     End Sub
+    ' This handles the immediate pop-up if a letter is typed
+    Private Sub ValidateInput(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles _
+        com111_txt.KeyPress, com112_txt.KeyPress, com113_txt.KeyPress, _
+        com114_txt.KeyPress, com115_txt.KeyPress, gns101_txt.KeyPress, _
+        gns111_txt.KeyPress, mth111_txt.KeyPress
 
+        ' If the key pressed is NOT a number, NOT a control key, and NOT a decimal
+        If Not Char.IsDigit(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso e.KeyChar <> "." Then
+            e.Handled = True ' This stops the letter from appearing in the box
+            MessageBox.Show("Please enter numbers only!", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End If
+    End Sub
+    Private Sub ValidateND1S2(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles _
+    com121_txt.KeyPress, com122_txt.KeyPress, com123_txt.KeyPress, _
+    com124_txt.KeyPress, com125_txt.KeyPress, com126_txt.KeyPress, _
+    gns228_txt.KeyPress, eed126_txt.KeyPress, gns102_txt.KeyPress, gns121_txt.KeyPress
+
+        If Not Char.IsDigit(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso e.KeyChar <> "." Then
+            e.Handled = True
+            MessageBox.Show("Please enter numbers only!", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End If
+    End Sub
+    Private Sub ValidateND2S1(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles _
+    com211_txt.KeyPress, com212_txt.KeyPress, com213_txt.KeyPress, _
+    com214_txt.KeyPress, com215_txt.KeyPress, com216_txt.KeyPress, _
+    eed216_txt.KeyPress, gns201_txt.KeyPress, sws210_txt.KeyPress
+
+        If Not Char.IsDigit(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso e.KeyChar <> "." Then
+            e.Handled = True
+            MessageBox.Show("Please enter numbers only!", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End If
+    End Sub
+    Private Sub ValidateND2S2(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles _
+    com221_txt.KeyPress, com222_txt.KeyPress, com223_txt.KeyPress, _
+    com224_txt.KeyPress, com225_txt.KeyPress, com226_txt.KeyPress, _
+    com229_txt.KeyPress, gns202_txt.KeyPress
+
+        If Not Char.IsDigit(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso e.KeyChar <> "." Then
+            e.Handled = True
+            MessageBox.Show("Please enter numbers only!", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End If
+    End Sub
+    ' This sub prevents scores above 100 for all semesters
+    Private Sub LimitScore(ByVal sender As Object, ByVal e As EventArgs) Handles _
+        com111_txt.TextChanged, com112_txt.TextChanged, com113_txt.TextChanged, _
+        com114_txt.TextChanged, com115_txt.TextChanged, gns101_txt.TextChanged, _
+        gns111_txt.TextChanged, mth111_txt.TextChanged, com229_txt.TextChanged
+
+        Dim txt As Guna.UI2.WinForms.Guna2TextBox = DirectCast(sender, Guna.UI2.WinForms.Guna2TextBox)
+
+        If txt.Text <> "" Then
+            Dim score As Double
+            ' Check if the input is a valid number
+            If Double.TryParse(txt.Text, score) Then
+                If score > 100 Then
+                    MessageBox.Show("Maximum score is 100!", "Invalid Score", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                    txt.Text = "100" ' Reset it to the max allowed
+                    txt.SelectionStart = txt.Text.Length ' Put cursor back at the end
+                End If
+            End If
+        End If
+    End Sub
     Private Sub Guna2Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBackToMain.Click
         pnlND1Semesters.Visible = False
         pnlMainMenu.Visible = True
@@ -21,11 +82,8 @@
 
     End Sub
 
-    Private Sub com115_txt_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles com115_txt.TextChanged
 
-    End Sub
-
-  Private Sub calculatebtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles calculatebtn.Click
+    Private Sub calculatebtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles calculatebtn.Click
 
 
 
@@ -457,7 +515,9 @@
 
     End Sub
 
-    Private Sub Guna2Button75_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2Button75.Click
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
 
     End Sub
 End Class
